@@ -16,9 +16,8 @@ date: 2023-06-23T16:02:36+08:00
 - 修改gui配置，先尝试该方法，如果不生效，尝试第二种
 1. ![](https://img2023.cnblogs.com/blog/3097908/202305/3097908-20230519221630722-1511599964.png)
 - 创建软连接方式
-1. 将C:\Users\pang\AppData\Local\Docker备份到C:\Users\pang\AppData\Local\Docker_bak，如果中间出现程序占用问题，在任务管理器杀掉docker，如果还有问题建议将wsl也关闭
+1. 将`C:\Users\pang\AppData\Local\Docker`备份到`C:\Users\pang\AppData\Local\Docker_bak`，如果中间出现程序占用问题，在任务管理器杀掉docker，如果还有问题建议将wsl也关闭
 1. 在cmd中创建快捷方式,（注意是cmd而不是powershell，git bash没尝试过），命令如下 `mklink /j "C:\Users\pang\AppData\Local\Docker" "你的路径"`
 1. 尝试启动docker desktop，如果不行，进入下一步
-1. 将备份的内容全部copy到你的路径下，比如我这里就是C:\Users\pang\AppData\Local\Docker_bak 到你的路径下
+1. 将备份的内容全部copy到你的路径下，比如我这里就是`C:\Users\pang\AppData\Local\Docker_bak` 到你的路径下
 1. 重启docker desktop即可
-## 更改docker镜像配置文件
