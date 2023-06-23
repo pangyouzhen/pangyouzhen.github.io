@@ -1,7 +1,6 @@
 ---
 title: "Wsl2安装docker"
 date: 2023-06-23T16:02:36+08:00
-draft: true
 ---
 
 # 安装
