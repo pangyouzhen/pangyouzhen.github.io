@@ -6,11 +6,11 @@
     <description>Recent content on pangyouzhen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 23 Jun 2023 13:46:27 +0800</lastBuildDate><atom:link href="https://pangyouzhen.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jun 2023 15:38:04 +0800</lastBuildDate><atom:link href="https://pangyouzhen.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>wsl2 安装docker</title>
+      <title>Wsl2安装docker</title>
       <link>https://pangyouzhen.github.io/posts/wsl2%E5%AE%89%E8%A3%85docker/</link>
-      <pubDate>Fri, 23 Jun 2023 13:46:27 +0800</pubDate>
+      <pubDate>Fri, 23 Jun 2023 15:38:04 +0800</pubDate>
       
       <guid>https://pangyouzhen.github.io/posts/wsl2%E5%AE%89%E8%A3%85docker/</guid>
       <description>安装 安装链接 以上的安装简单讲就是下载docker desktop下载并安装 注意事项 不要在wsl2中直接apt install，如果已经install 请先卸载，因为你会发现启动时候报错 常见问题 更改镜像位置 背景 docker镜像默认是放在C盘的，如果C盘比较小的话是有问题的 解决办法 修改gui配置，先尝试该方法，如果不生效，尝试第二种 创建软连接方式 将C:\Users\pang\AppData\Local\Docker备份到C:\Users\pang\AppData\Local\Docker_bak，如果中间出现程序占用问题，在任务管理器杀掉docker，如果还有问题建议将wsl也关闭 在cmd中创建快捷方式,（注意是cmd而不是powershell，git bash没尝试过），命令如下 mklink /j &amp;quot;C:\Users\pang\AppData\Local\Docker&amp;quot; &amp;quot;你的路径&amp;quot; 尝试启动docker desktop，如果不行，进入下一步 将备份的内容全部copy到你的路径下，比如我这里就是C:\Users\pang\AppData\Local\Docker_bak 到你的路径下 重启docker desktop即可 更改docker镜像配置文件 </description>
