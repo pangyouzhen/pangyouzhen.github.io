@@ -1,3 +1,8 @@
+---
+title: "wsl2 安装docker"
+date: 2023-06-23T13:46:27+08:00
+---
+
 # 安装
 1. [安装链接](https://docs.docker.com/desktop/windows/wsl/)
 1. 以上的安装简单讲就是下载docker desktop下载并安装
