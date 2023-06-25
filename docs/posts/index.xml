@@ -5,15 +5,37 @@
     <link>https://pangyouzhen.github.io/posts/</link>
     <description>Recent content in Posts on pangyouzhen</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 23 Jun 2023 16:02:36 +0800</lastBuildDate><atom:link href="https://pangyouzhen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 25 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pangyouzhen.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>chatglm</title>
+      <link>https://pangyouzhen.github.io/posts/chatglm/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pangyouzhen.github.io/posts/chatglm/</guid>
+      <description>glmLink to headingGLM: General Language Model Pretraining with Autoregressive Blank Infilli
+GLM Pretraining FrameworkLink to headingPretraining ObjectiveLink to headingAutoregressive Blank InfillinLink to heading总结：对句子随机抽样成2部分拼接进行自回归填充
+Multi-Task PretrainLink to headingModel ArchitectureLink to heading2D Positional EncodingLink to heading图c中 position中
+position1 中是从原始中切分的id，比如$x_{3}$的position1位置为3 position2 中是从part1都是0，partB都是range 思考：为什么这么做？
+Finetuning GLMLink to headingchatglmLink to headingchatgptLink to headingpretraining reward model rf chatglmLink to heading6B参数 微调Link to headingp-tuningLink to headingloraLink to headingqloraLink to heading扩展Link to headinglangchain-chatglmLink to heading常见问题Link to heading</description>
+    </item>
+    
+    <item>
+      <title>人选之人造浪者_人物关系图</title>
+      <link>https://pangyouzhen.github.io/posts/%E4%BA%BA%E9%80%89%E4%B9%8B%E4%BA%BA%E9%80%A0%E6%B5%AA%E8%80%85_%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</link>
+      <pubDate>Sun, 25 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pangyouzhen.github.io/posts/%E4%BA%BA%E9%80%89%E4%B9%8B%E4%BA%BA%E9%80%A0%E6%B5%AA%E8%80%85_%E4%BA%BA%E7%89%A9%E5%85%B3%E7%B3%BB%E5%9B%BE/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Wsl2安装docker</title>
       <link>https://pangyouzhen.github.io/posts/wsl2%E5%AE%89%E8%A3%85docker/</link>
       <pubDate>Fri, 23 Jun 2023 16:02:36 +0800</pubDate>
       
       <guid>https://pangyouzhen.github.io/posts/wsl2%E5%AE%89%E8%A3%85docker/</guid>
-      <description> 安装 Link to heading 安装链接 以上的安装简单讲就是下载docker desktop下载并安装 注意事项 Link to heading 不要在wsl2中直接apt install，如果已经install 请先卸载，因为你会发现启动时候报错 常见问题 Link to heading 更改镜像位置 Link to heading 背景 Link to heading docker镜像默认是放在C盘的，如果C盘比较小的话是有问题的 解决办法 Link to heading 修改gui配置，先尝试该方法，如果不生效，尝试第二种 创建软连接方式 将C:\Users\pang\AppData\Local\Docker备份到C:\Users\pang\AppData\Local\Docker_bak，如果中间出现程序占用问题，在任务管理器杀掉docker，如果还有问题建议将wsl也关闭 在cmd中创建快捷方式,（注意是cmd而不是powershell，git bash没尝试过），命令如下 mklink /j &amp;quot;C:\Users\pang\AppData\Local\Docker&amp;quot; &amp;quot;你的路径&amp;quot; 尝试启动docker desktop，如果不行，进入下一步 将备份的内容全部copy到你的路径下，比如我这里就是C:\Users\pang\AppData\Local\Docker_bak 到你的路径下 重启docker desktop即可 </description>
+      <description>安装Link to heading安装链接 以上的安装简单讲就是下载docker desktop下载并安装 注意事项：不要在wsl2中直接apt install，如果已经install 请先卸载，因为你会发现启动时候报错 常见问题Link to heading更改镜像位置Link to heading背景Link to headingdocker镜像默认是放在C盘的，如果C盘比较小的话是有问题的 解决办法Link to heading修改gui配置方式Link to heading先尝试该方法，如果不生效，尝试第二种 创建软连接方式Link to heading将C:\Users\pang\AppData\Local\Docker备份到C:\Users\pang\AppData\Local\Docker_bak，如果中间出现程序占用问题，在任务管理器杀掉docker，如果还有问题建议将wsl也关闭 在cmd中创建快捷方式,（注意是cmd而不是powershell，git bash没尝试过），命令如下 mklink /j &amp;quot;C:\Users\pang\AppData\Local\Docker&amp;quot; &amp;quot;你的路径&amp;quot; 尝试启动docker desktop，如果不行，进入下一步 将备份的内容全部copy到你的路径下，比如我这里就是C:\Users\pang\AppData\Local\Docker_bak 到你的路径下 重启docker desktop即可 </description>
     </item>
     
     <item>
@@ -22,7 +44,7 @@
       <pubDate>Fri, 23 Jun 2023 10:39:27 +0800</pubDate>
       
       <guid>https://pangyouzhen.github.io/posts/first-post/</guid>
-      <description> hello world Link to heading </description>
+      <description>hello worldLink to heading</description>
     </item>
     
   </channel>
